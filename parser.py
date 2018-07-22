@@ -13,7 +13,7 @@ if len(sys.argv)<2:
     print 'Usage: parser.py results_folder'
 
 result_sha = sys.argv[1]
-txt_dir = os.path.join('build','results', result_sha)
+txt_dir = os.path.join(result_sha, 'results')
 
 for class_name in classes:
     for param in params:
