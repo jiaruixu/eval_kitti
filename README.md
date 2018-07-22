@@ -4,7 +4,7 @@
 
 The *eval_kitti* software contains tools to evaluate object detection results using the KITTI dataset. The code is based on the [KITTI object development kit](http://www.cvlibs.net/datasets/kitti/eval_object.php) and forked from [eval_kitti](https://github.com/cguindel/eval_kitti).
 
-### Tools ###
+## Tools
 
 * *evaluate_object* is an improved version of the official KITTI evaluation that enables multi-class evaluation and splits of the training set for validation. It's updated according to the modifications introduced in 2017 by the KITTI authors.
 * *parser* is meant to provide mAP and mAOS stats from the precision-recall curves obtained with the evaluation script.
